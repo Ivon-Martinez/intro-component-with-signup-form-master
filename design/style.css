@@ -1,0 +1,18 @@
+body {
+    background-image: url("bg-intro-desktop.png");
+    background-color: rgba(233, 102, 102, 0.874);
+    color: rgb(237, 237, 240);
+    /*font-family: Poppins;*/
+    font-family: system-ui;
+
+
+
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 200px;
+    align-self: center;
+}
