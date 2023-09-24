@@ -1,5 +1,4 @@
 body {
-    background-image: url("bg-intro-desktop.png");
     background-color: rgba(233, 102, 102, 0.874);
     color: rgb(237, 237, 240);
     /*font-family: Poppins;*/
@@ -13,6 +12,33 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 200px;
+
     align-self: center;
+    background-color: rgb(43, 255, 0);
+    text-align: center;
+
+
+}
+.container > div{
+    width: 50%;
+    padding-bottom: 1000px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+
+}
+.right{
+    background-color: blue;
+    margin-left: 250px; 
+    margin-right: 5px;
+
+
+}
+.left{
+    background-color: rgb(213, 14, 183);
+    margin-right: 250px;
+    margin-left: 5px; 
+    text-align: left;
+
+
+
 }
