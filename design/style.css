@@ -13,7 +13,7 @@ body {
     flex-direction: row;
     align-items: center;
     align-self: center;
-    background-color: rgb(43, 255, 0);
+    /*background-color: rgb(61, 195, 106);*/
     text-align: center;
     flex-wrap: nowrap;
  
@@ -31,7 +31,7 @@ body {
 
 }
 .right{
-    background-color: blue;
+   /* background-color: blue;*/
     margin-left: 350px; 
     margin-right: 5px;
     text-align: left;
@@ -41,8 +41,9 @@ body {
 .header{
     margin-top: 250px;
     margin-right: 1.4vw;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     line-height: 5.5vw;
+    word-spacing: -0.5vw;
 
 }
 .text{
@@ -58,7 +59,7 @@ body {
 
 
 .left{
-    background-color: rgb(213, 14, 183);
+    /*background-color: rgb(213, 14, 183);*/
     margin-right: 250px;
     margin-left: 5px; 
     text-align: left;
@@ -69,7 +70,7 @@ body {
 .try{
     background-color: #6c62dc;
     min-height: 110px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 2px;
     display: flex;
     flex-direction: row;
@@ -77,31 +78,67 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    box-shadow: 0px 11px 0px 0px #6c6c6a3d;
 
 }
 .form{
     background-color: white;
-    border-radius: 30px;
+    border-radius: 15px;
     margin: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height: 700px;
     padding: 60px;
+    justify-content: space-between;
+    margin-top: 45px;
+    box-shadow: 0px 11px 0px 0px #6c6c6a3d;
+
 
 }
 
 .inputs{
  
     width: -webkit-fill-available;
-    background-color: purple;
+   /* background-color: purple;*/
     display: flex;
-
     flex-direction: column;
     align-items: stretch;
+    height: 70%;
+    justify-content: space-between;
 
 }
 input{
-padding: 30px;
+    padding: 35px;
+    border-radius: 15px;
+    border-block-color: rgb(184, 183, 183);
+    -webkit-text-stroke-width: medium;
+    font-size: x-large;
 
 }
+.boton{
+
+  /*  background-color: aqua;*/
+    display: flex;
+
+    width: -webkit-fill-available;
+    flex-direction: column;
+
+}
+
+button{
+    padding: 35px;
+    border-radius: 15px;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(61, 195, 106);
+    border-bottom: outset;
+    border-bottom-color: rgba(61, 195, 106, 0.399);
+    border-color: rgba(61, 195, 106, 0.399);
+
+
+
+
+}
+
