@@ -1,8 +1,12 @@
 body {
     background-color: rgba(233, 102, 102, 0.874);
     color: rgb(237, 237, 240);
-    /*font-family: Poppins;*/
+    /* font-family: Poppins; */
     font-family: system-ui;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 
 
 
@@ -16,25 +20,24 @@ body {
     /*background-color: rgb(61, 195, 106);*/
     text-align: center;
     flex-wrap: nowrap;
+    min-height: 100vh;
  
 
 
 }
 .container > div{
     width: 50%;
-    padding-bottom: 1000px;
     margin-top: 200px;
     margin-bottom: 200px;
-    height: 100px;
 
 
 
 }
 .right{
    /* background-color: blue;*/
-    margin-left: 350px; 
-    margin-right: 5px;
+    margin-left: 250px; 
     text-align: left;
+    margin-right: 50px;
 
 
 }
@@ -48,7 +51,7 @@ body {
 }
 .text{
    /* margin-right: 4vw;*/
-    font-size: 1vw;
+    font-size: 1.1vw;
     line-height: 2vw;
 
 
@@ -154,7 +157,7 @@ button:hover{
 
 
 
-@media only screen and (max-width:1611px ) {
+@media only screen and (max-width:1800px) {
    body{
     background-color: blue;
    }
@@ -163,7 +166,7 @@ button:hover{
     flex-direction: column;
     align-items: center;
     align-self: center;
-    /*background-color: rgb(61, 195, 106);*/
+    background-color: rgb(61, 195, 106);
     text-align: center;
     flex-wrap: nowrap;
    }
@@ -176,11 +179,9 @@ button:hover{
     margin-bottom: 0px;
     height: 50px;
     align-items: center;
+}
 
-
-   .container{
-    background-color: rgb(61, 195, 106);
-   }
+   
    .left{
     background-color: rgb(213, 14, 183);
    }
@@ -189,7 +190,7 @@ button:hover{
     margin-left: 0px;
     text-align: center;
     min-width: 600px;
-
+    margin-right: 0px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
